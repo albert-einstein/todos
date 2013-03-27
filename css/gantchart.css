@@ -1,0 +1,18 @@
+.node{
+	background-image: url("../images/background.png");
+	background-position:center;
+	float:left;
+	padding: 0 5px;
+}
+.node-icon{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	margin: auto;
+}
+.node>.header{
+	text-align: center;
+}
+.node>.footer{
+	text-align: center;
+}

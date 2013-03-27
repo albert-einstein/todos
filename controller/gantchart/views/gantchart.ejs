@@ -1,0 +1,7 @@
+<div class="gantchart">
+    <%for(var i=0;i<this.length;i++){%>
+        <div class="node" <%=this[i]%>>
+        	<%== $.View('//todos/controller/gantchart/views/todo.ejs', this[i])%>
+        </div>
+    <%}%>
+</div>
